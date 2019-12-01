@@ -42,6 +42,6 @@ class Circle {
         return this.diameter
     }
     function findCircumference() {
-        return this.tau * this.radius
+        return this.pi * this.findDiameter()
     }
 }
