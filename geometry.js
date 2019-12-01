@@ -44,4 +44,7 @@ class Circle {
     function findCircumference() {
         return this.pi * this.findDiameter()
     }
+    function makeOval() {
+        this.perfect = false
+    }
 }
