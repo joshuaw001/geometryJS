@@ -48,3 +48,21 @@ class Circle {
         this.perfect = false
     }
 }
+
+class RightTriangle {
+    constructor(legs,dists) {
+        this.a           = legs[0]
+        this.b           = legs[1]
+        this.c2          = ((this.a * this.a) + (this.b * this.b))
+        this.c           = math.sqrt(this.c2)
+        this.distA       = dists[0]
+        this.distB       = dists[1]
+        this.distC       = math.sqrt(this.c2)
+        this.midpoints   = {"a":this.distA / 2,"b":this.distB / 2,"c":this.distC / 2}
+        this.midAC       = {"slope":0,"distance":(this.distB / 2)}
+    }
+    function findHypotenusePower2() {
+        return this.c2
+    }
+
+}
