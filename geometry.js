@@ -5,4 +5,16 @@
  * Version     : v1.1 beta
  * See Also    : algebraJS
  */
-
+class StyleObject {
+    constructor(options=[]) {
+        this.options = options
+        
+    }
+    function defaults() {
+        this.
+    }
+}
+class Construction {
+    constructor(style=ConstructionStyleObject()) {
+        this.styleobject = style
+}
